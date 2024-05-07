@@ -1,0 +1,336 @@
+<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+<style type="text/css">
+    .faq {
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+        width: 80%;
+    }
+
+    .faq-icon {
+        height: 18px;
+        width: 18px;
+        margin-top: 3px;
+    }
+
+    .accordion {
+        background-color: #f2f2f2;
+        color: #2F2F2F;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #e12a29;
+        color: #ffffff;
+    }
+
+    .active {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .details-description {
+        font-size: 22px;
+        margin-top: 20px
+    }
+
+    .panel {
+        padding: 0 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #f3ecea;
+        margin-top: -28px;
+        color: #282A35;
+        display: none;
+        overflow: hidden;
+        border-radius: 0px 0px 10px 10px;
+        text-align: left;
+    }
+
+    .panel,
+    .accordion {
+        margin-bottom: 2rem;
+    }
+
+    button.accordion {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .paragraphs {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        white-space: pre-wrap;
+    }
+</style>
+
+<div class="w3-center w3-animate-zoom" style="margin-top: -1px;">
+    <div class="w3-center w3-content">
+        <div class="faq w3-center w3-content" style="padding-top: 10px;">
+            <h3><b style="color: #e12a29; font-size:22px;">Frequently Asked Questions</b></h3><br>
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. What is CLAT? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id1"></div>
+                <p id="paragraph_id1" style="display: none;">Answer: Common Law Admission Test (CLAT) is an entrance
+                    exam for admission to undergraduate and postgraduate law programs at National Law Universities
+                    (NLUs) in India. </p>
+            </div>
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. Who conducts CLAT? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id2"></div>
+                <p id="paragraph_id2" style="display: none;">Answer: Consortium of NLUs, which consists of 24 NLUs. </p>
+            </div>
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. When does the process for application begin and what is the last date
+                    to apply? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id3"></div>
+                <p id="paragraph_id3" style="display: none;">Answer: The online enrolment for CLAT 2025 will start from
+                    the first week of July (2024) and end by the first week of November (2024). </p>
+            </div>
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. What is the fee for CLAT application? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id4"></div>
+                <p id="paragraph_id4" style="display: none;">Answer: Fees for CLAT Application:
+                <ul>
+                    <li>General/OBC/PWD/NRI candidates: Rs 4,000/-</li>
+                    <li>SC/ST/BPL category candidates: Rs 3,500/-</li>
+                </ul>
+                </p>
+            </div>
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. What is the tentative date of the exam? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id5"></div>
+                <p id="paragraph_id5" style="display: none;">Answer: The date of examination is scheduled in the first
+                    week of December (2024). </p>
+            </div>
+            <!-- 6th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. What is the mode of examination? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id6"></div>
+                <p id="paragraph_id6" style="display: none;">Answer: The exam is conducted offline in pen paper mode.
+                </p>
+            </div>
+            <!-- 7th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. Who can appear for the CLAT? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id7"></div>
+                <p id="paragraph_id7" style="display: none;">Answer: Student who have passed the Class XII with minimum
+                    45% marks for general category and 40% for reserved category are eligible. However, the students
+                    appearing for boards are also eligible provided they produce evidence of passing the qualifying
+                    examination at the time of admission, failing which student would lose their seat for admission.
+                </p>
+            </div>
+            <!-- 8th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. What is the exam pattern for CLAT? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id8"></div>
+                <p id="paragraph_id8" style="display: none;">Answer: The CLAT exam consists of multiple-choice questions
+                    covering subjects such as English, General Knowledge & Current Affairs, Quantitative Aptitude, Legal
+                    Aptitude, and Logical Reasoning. The exam duration is 2 hours. </p>
+            </div>
+            <!-- 9th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. Is there is any negative marking in CLAT Exam? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id9"></div>
+                <p id="paragraph_id9" style="display: none;">Answer: The candidate is awarded 1 mark for every correct
+                    answer and 0.25 marks for every wrong answer. </p>
+            </div>
+            <!-- 10th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. How many NLUs are there? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id10"></div>
+                <p id="paragraph_id10" style="display: none;">Answer: There are 24 NLUs which are as follows:
+                <ul>
+                    <li>NLSIU Bengaluru</li>
+                    <li>NALSAR Hyderabad</li>
+                    <li>WBNUJS Kolkata</li>
+                    <li>NLIU Bhopal</li>
+                    <li>NLU Jodhpur</li>
+                    <li>HNLU Raipur</li>
+                    <li>GNLU Gandhinagar</li>
+                    <li>GNLU Silvassa Campus</li>
+                    <li>RMLNLU Lucknow</li>
+                    <li>RGNUL Patiala</li>
+                    <li>CNLU Patna</li>
+                    <li>NUALS Kochi</li>
+                    <li>NLUO Cuttack</li>
+                    <li>NUSRL Ranchi</li>
+                    <li>NLUJ Guwahati</li>
+                    <li>DSNLU Visakhapatnam</li>
+                    <li>TNNLU Tiruchirappalli</li>
+                    <li>MNLU Mumbai</li>
+                    <li>MNLU Nagpur</li>
+                    <li>MNLU Aurangabad</li>
+                    <li>HPNLU Shimla</li>
+                    <li>DNLU Jabalpur</li>
+                    <li>DBRANLU Sonipat</li>
+                    <li>NLUT Agartala</li>
+                    <li>NLU Meghalaya</li>
+                </ul>
+                </p>
+            </div>
+            <!-- 11th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. Which colleges other than NLUs accept CLAT score? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id11"></div>
+                <p id="paragraph_id11" style="display: none;">Answer: There are several reputed colleges which accept
+                    CLAT scores for admission. For example: University of Delhi, Indraprastha University, Jindal Global
+                    Law School, Lloyd Law College Dehradun, etc. </p>
+            </div>
+            <!-- 12th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. What are the other exams which a serious law aspirant should appear for
+                    if he/she wants to study from India? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id12"></div>
+                <p id="paragraph_id12" style="display: none;">Answer: A student can appear for AILET, SLAT, JMI-ET,
+                    MH-CET Law, Christ-ET, ILSAT etc. to study in a prominent law university in India. </p>
+            </div>
+            <!-- 13th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. How much time is ideally required to crack a Competitive Exam Like
+                    CLAT? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id13"></div>
+                <p id="paragraph_id13" style="display: none;">Answer: CLAT indeed demands thorough preparation, as it
+                    assesses a candidate's comprehension and analytical skills across various subjects. Starting
+                    preparation in the 11th grade allows students to build a strong foundation in key areas such as
+                    English, Mathematics, Logical Reasoning, and Legal Aptitude. By the time they enter the 12th grade,
+                    they should be well-versed in these subjects, enabling them to tackle the CLAT examination
+                    effectively. </p>
+            </div>
+            <!-- 14th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. Why should students join Drishti for CLAT? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id14"></div>
+                <p id="paragraph_id14" style="display: none;">Answer: We at Drishti provide you with structured
+                    guidance, expert faculty support, comprehensive study materials, regular mock tests, and a
+                    competitive environment, which can significantly enhance your preparation and improve your chances
+                    of success in the exam. </p>
+            </div>
+            <!-- 15th -->
+            <button class="accordion" style="display: flex; flex-direction: row;"><img class="faq-icon"
+                    src="https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg"> &nbsp; &nbsp; <b
+                    style="padding-top: 2px;">Q. How are mock tests helpful in CLAT preparation? </b></button>
+            <div class="panel" style="display: none;">
+                <div class="paragraphs" id="myDiv_id15"></div>
+                <p id="paragraph_id15" style="display: none;">Answer: Mock tests simulate the actual CLAT exam
+                    environment and help you assess your preparation level, identify strengths and weaknesses, improve
+                    time management skills, and gain confidence. Regular practice through mock tests is crucial for
+                    achieving success in CLAT. </p>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        for (var i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                    stopVoice(); // Stop voice when FAQ is closed
+                } else {
+                    panel.style.display = "block";
+                    var secondElementChild = panel.children[1].id;
+                    var text = document.getElementById(secondElementChild).innerHTML;
+                    stopVoice(); // Stop any ongoing voice
+                    startVoice(text); // Start voice when FAQ is opened
+                    printStringByLetter(secondElementChild, panel.children[0].id);
+                }
+            });
+        }
+
+        function startVoice(text) {
+            responsiveVoice.speak(text, 'US English Female', parameters);
+        }
+
+        function stopVoice() {
+            responsiveVoice.cancel();
+        }
+
+        var images = document.querySelectorAll(".faq-icon");
+        images.forEach(function (image) {
+            image.addEventListener("click", changeImage);
+        });
+
+        function changeImage() {
+            if (this.src.match("chevron-down")) {
+                this.src = "https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-up.svg";
+            } else {
+                this.src = "https://cdn.jsdelivr.net/gh/linuxguist/faqa@main/chevron-down.svg";
+            }
+        }
+
+        function voiceStartCallback() {
+            console.log("Voice started");
+        }
+
+        function voiceEndCallback() {
+            console.log("Voice ended");
+        }
+
+        var parameters = {
+            onstart: voiceStartCallback,
+            onend: voiceEndCallback,
+            rate: 0.85
+        }
+
+        function printStringByLetter(paragraph_id, myDiv_id) {
+            var myDiv = document.getElementById(myDiv_id);
+            var text = document.getElementById(paragraph_id).innerHTML;
+            document.getElementById(myDiv_id).innerHTML = "";
+            var index = 0;
+            var intervalId = setInterval(function () {
+                myDiv.innerHTML += text.charAt(index);
+                index++;
+                if (index == text.length) {
+                    clearInterval(intervalId);
+                    index = 0;
+                    text = "";
+                }
+            }, 50);
+        }
+    </script>
+
+    <script type="text/javascript">
+        // responsiveVoice.speak("Hello Welcome to Drishti Judiciary Clat 2025","US English Female", parameters);
+        // responsiveVoice.speak("Hello Welcome to Drishti Judiciary", "US English Male", {pitch: 2});
+        // responsiveVoice.speak("Hello Welcome to Drishti Judiciary", "US English Male", {rate: 1.5});
+        // responsiveVoice.speak("Hello Welcome to Drishti Judiciary Clat 2025", "US English Male", {volume: 1});
+    </script>
